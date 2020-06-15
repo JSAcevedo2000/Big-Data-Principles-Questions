@@ -31,5 +31,12 @@ Latency is the duration that the request waits to be processed.
 
 Both are important in their own way, but given that response time includes the latency and that ensuring a good user experience should be a priority, response time is the most important.
 
-6.
+**6. What are the 3 main design principles for software systems and what is their objective?**
 
+  -Make it easy to keep the system running.
+  
+  -Make it easy to understand.
+  
+  -Make it easy to make changes in the future.
+  
+They are aimed to make the software as smooth and easy to use as possible, by minimazing problems during routine maintanance and avoiding the creation of "legacy systems".
