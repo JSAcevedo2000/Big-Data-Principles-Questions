@@ -23,8 +23,13 @@ By combining several tools which will be hidden inside the application programmi
 
 Reliability is especially important when we are talking about software systems designed for delicate operations, such as air traffic control, power stations, police departments, hospitals, etc. Bugs with the software on said cases can lead to legal risks (lawsuits) or even human losses.
 
-5. 
+**5. What's the difference between latency and response time, and which is more important?**
 
+Response time is the time that the client has to wait to obtain the result of a request or query. This time includes the processing time, network and queuing delays. 
+
+Latency is the duration that the request waits to be processed.
+
+Both are important in their own way, but given that response time includes the latency and that ensuring a good user experience should be a priority, response time is the most important.
 
 6.
 
