@@ -11,13 +11,19 @@ Because nowadays, there are many tools and many types of databases, as well as d
 By combining several tools which will be hidden inside the application programming interface (API), in a way that said system will be composed from smaller components working as one.
 
 
-3.
+**3. What are the main 3 concerns of software systems?**
 
+  -The system should always work correctly.
+  
+  -The system is capable of growing as users demand.
+  
+  -The system is capable to receive maintance by different people.
 
-4.
+**4. When and why is reliability most important?**
 
+Reliability is especially important when we are talking about software systems designed for delicate operations, such as air traffic control, power stations, police departments, hospitals, etc. Bugs with the software on said cases can lead to legal risks (lawsuits) or even human losses.
 
-5.
+5. 
 
 
 6.
