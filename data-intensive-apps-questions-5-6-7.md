@@ -1,6 +1,6 @@
 # Chapter 5
 
-**1. What is the "read-after-write consistency" and what is its main limitation? **
+**1. What is the "read-after-write consistency" and what is its main limitation?**
 
 It is a guarantee that the page will show all the updates made if it is reloaded, if the update was submitted by the user reloading. Its main limitation is that this guarantee is not valid when talking about updates made by other users.
 
@@ -20,7 +20,7 @@ To prevent it, we must include some kind of conflict resolution in our architect
 
 # Chapter 6
 
-**1. What is a skewed partition and how does it affect partitioning? **
+**1. What is a skewed partition and how does it affect partitioning?**
 
 A partition is called skewed when some partitions have more data or queries than other (are unfair).
 A skewed partition is less effective than no-skewed ones. 
@@ -60,6 +60,6 @@ Isolated - each transaction is independent of any other, and a transaction canno
 
 Durable - a transaction must be completed without data loss.
 
-**4. When can we call an operation to be "single-object"?
+**4. When can we call an operation to be "single-object"?**
 
 An operation can be classified as single-object if it only touches one record in the database (depending on the database we are working it, said record could also be a row, a document, a value, etc.). All single-object operations include the Isolation and Atomicity features naturally, so it is important to focus on the other 2 ACID concepts when working with them.
